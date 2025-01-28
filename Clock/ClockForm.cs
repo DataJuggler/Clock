@@ -38,6 +38,10 @@ namespace Clock
 
             // Update the date
             DateLabel.Text = DateTime.Now.DayOfWeek + " " + DateTime.Now.ToShortDateString();
+
+            // Show on top
+            TopLevel = true;
+            TopMost = true;
         }
         #endregion
 
